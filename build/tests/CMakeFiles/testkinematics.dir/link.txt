@@ -1,0 +1,1 @@
+/usr/bin/c++  -g -Wall   CMakeFiles/testkinematics.dir/test_kinematics.cpp.o  -o testkinematics -Wl,-rpath,/home/james/Documents/Cpp/kinematics/build/src ../lib/libgtest.a ../lib/libgmock.a ../lib/libgtest_main.a ../src/liblibkinematics.so ../lib/libgtest.a -lpthread 

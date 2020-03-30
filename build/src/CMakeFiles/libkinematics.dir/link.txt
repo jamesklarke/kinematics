@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g -Wall  -shared -Wl,-soname,liblibkinematics.so -o liblibkinematics.so CMakeFiles/libkinematics.dir/kinematics.cpp.o 

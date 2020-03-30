@@ -1,0 +1,5 @@
+if(EXISTS "/home/james/Documents/Cpp/kinematics/build/tests/testkinematics[1]_tests.cmake")
+  include("/home/james/Documents/Cpp/kinematics/build/tests/testkinematics[1]_tests.cmake")
+else()
+  add_test(testkinematics_NOT_BUILT testkinematics_NOT_BUILT)
+endif()

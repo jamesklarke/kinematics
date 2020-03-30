@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/kinematics/kinematics.h
+
+/home/james/Documents/Cpp/kinematics/src/kinematics.cpp
+kinematics.h
+/home/james/Documents/Cpp/kinematics/src/kinematics.h
+
